@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Draggable - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <style>
+	  .ui-widget-content{border: 1px solid #dddddd;
+background: #ffffff;
+color: #333333;
+	  width:10%;
+	  height:10%;}
+	  .a{ width:100%;
+	  height:100%;}
+	  .b{ width:30%;
+	  height:30%;
+	  }
+  #draggable { width: 150px; height: 150px; padding: 0.5em; }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+  $( "#1" ).draggable({ axis: "y" });
+  $( "#2" ).draggable({ axis: "y" });
+  $( "#3" ).draggable({ axis: "y" });
+  $( "#4" ).draggable({ axis: "y" });
+  $( "#5" ).draggable({ axis: "y" });
+  $( "#6" ).draggable({ axis: "y" });
+  $( "#7" ).draggable({ axis: "y" });
+  $( "#8" ).draggable({ axis: "y" });
+  $( "#9" ).draggable({ axis: "y" });
+  $( "#10" ).draggable({ axis: "y" });
+  } );
+  </script>
+</head>
+<body>
+	<div class="a">
+		<div class="b">
+<div id="1" class="ui-widget-content">
+  <p align="center">1</p>
+</div>
+		<div id="6" class="ui-widget-content">
+  <p align="center">6</p>
+</div>
+	<div id="2" class="ui-widget-content">
+  <p align="center">2</p>
+</div>
+			<div id="7" class="ui-widget-content">
+  <p align="center">7</p>
+</div>
+	<div id="3" class="ui-widget-content">
+  <p align="center">3</p>
+</div>
+		<div id="8" class="ui-widget-content">
+  <p align="center">8</p>
+</div>
+	<div id="4" class="ui-widget-content">
+  <p align="center">4</p>
+</div>
+		<div id="9" class="ui-widget-content">
+  <p align="center">9</p>
+</div>
+	<div id="5" class="ui-widget-content">
+  <p align="center">5</p>
+</div>
+<div id="10" class="ui-widget-content">
+  <p align="center">10</p>
+</div>
+</div>
+</div>
+	
+ 
+ 
+</body>
+</html>
